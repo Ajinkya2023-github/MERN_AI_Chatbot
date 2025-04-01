@@ -1,11 +1,7 @@
 {
-  "compilerOptions": {
-    "module": "Nodenext",
-    "moduleResolution": "NodeNext",
-    "target": "ES2022",
-    "sourceMap": true,
-    "outDir": "dist",
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["src/**/*.ts", "src/index.ts"]
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }
